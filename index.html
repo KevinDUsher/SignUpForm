@@ -5,9 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./CSS/style.css">
-    <script src="/Javascript/signup.js"></script>
+    <script src="./Javascript/signup.js" defer></script>
 </head>
 <body>
-    
+    <div class="leftSide">
+        <div class="logo">
+            <img src="./CSS/odin-lined.png" alt="">ODIN
+        </div>
+        <div class="credit">
+            Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Unsplash</a>
+        </div>
+    </div>
+    <div class="rightSide">
+        <div class="rightUpper">
+            <div class="partOne">
+            This is not a real online service! 
+            You know you need something like this in your life to help you realize your deepest dreams. 
+            Sign up <span class="ital">now</span> to get started
+            </div>
+            <br>
+            <div class="partTwo">You <span class="ital">know</span> you want to</div>
+        </div>
+        <div class="rightMiddle">
+            <form action="" method="post" class="createAccount" id="middleForm">
+                <div class="middleForumnAlign">
+                    <div class="midText">Let's do this!</div>
+                    <div class="leftRight">
+                        <div class="middleLeft">
+                            <div class="inputGroup">
+                            <label for="firstName">FIRST NAME</label><input type="text" name="firstName" id="firstName">
+                            </div>
+                            <div class="inputGroup">
+                            <label for="email">EMAIL</label><input type="email" name="email" id="email">
+                            </div>
+                            <div class="inputGroup">
+                            <label for="password">PASSWORD</label><input type="password" name="password" id="password">
+                            </div>
+                        </div>
+                        <div class="middleRight">
+                            <div class="inputGroup">
+                            <label for="lastName">LAST NAME</label><input type="text" name="lastName" id="lastName">
+                            </div>
+                            <div class="inputGroup">
+                            <label for="tel">PHONE NUMBER</label><input type="tel" name="tel" id="tel">
+                            </div>
+                            <div class="inputGroup">
+                            <label for="passwordConfirm">CONFIRM PASSWORD</label><input type="password" name="passwordConfirm" id="passwordConfirm">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="subButton" id="subButton">Create Account</button>
+            </form>
+        </div>
+        <div class="rightLower">
+            <div class="lowText">Already have an account? <a href="">Log in</a></div>
+        </div>
+    </div>
 </body>
 </html>
